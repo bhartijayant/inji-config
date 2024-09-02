@@ -6,9 +6,7 @@
         {
           "name": "Veridonia Insurance Company",
           "logo": {
-            "url": "
-https://${mosip.api.public.host}/inji/veridonia-logo.png"
-,
+            "url": "https://${mosip.api.public.host}/inji/veridonia-logo.png",
             "alt_text": "a Veridonia logo"
           },
           "language": "en",
@@ -18,9 +16,7 @@ https://${mosip.api.public.host}/inji/veridonia-logo.png"
         {
           "name": "شركة فيريدونيا للتأمين",
           "logo": {
-            "url": "
-https://${mosip.api.public.host}/inji/veridonia-logo.png"
-,
+            "url": "https://${mosip.api.public.host}/inji/veridonia-logo.png",
             "alt_text": "شعار فيريدونيا"
           },
           "language": "ar",
@@ -30,9 +26,7 @@ https://${mosip.api.public.host}/inji/veridonia-logo.png"
         {
           "name": "वेरिडोनिया बीमा कंपनींं",
           "logo": {
-            "url": "
-https://${mosip.api.public.host}/inji/veridonia-logo.png"
-,
+            "url": "https://${mosip.api.public.host}/inji/veridonia-logo.png",
             "alt_text": "एक वेरिडोनिया लोगो"
           },
           "language": "hi",
@@ -42,9 +36,7 @@ https://${mosip.api.public.host}/inji/veridonia-logo.png"
         {
           "name": "ವೆರಿಡೋನಿಯಾ ವಿಮಾ ಕಂಪನಿ",
           "logo": {
-            "url": "
-https://${mosip.api.public.host}/inji/veridonia-logo.png"
-,
+            "url": "https://${mosip.api.public.host}/inji/veridonia-logo.png",
             "alt_text": "ವೆರಿಡೋನಿಯಾ ಲೋಗೋ"
           },
           "language": "kn",
@@ -54,9 +46,7 @@ https://${mosip.api.public.host}/inji/veridonia-logo.png"
         {
           "name": "வெரிடோனியா இன்சூரன்ஸ் நிறுவனம்",
           "logo": {
-            "url": "
-https://${mosip.api.public.host}/inji/veridonia-logo.png"
-,
+            "url": "https://${mosip.api.public.host}/inji/veridonia-logo.png",
             "alt_text": "ஒரு வெரிடோனியா லோகோ"
           },
           "language": "ta",
@@ -66,9 +56,7 @@ https://${mosip.api.public.host}/inji/veridonia-logo.png"
         {
           "name": "Veridonia Insurance Company",
           "logo": {
-            "url": "
-https://${mosip.api.public.host}/inji/veridonia-logo.png"
-,
+            "url": "https://${mosip.api.public.host}/inji/veridonia-logo.png",
             "alt_text": "isang logo ng Veridonia"
           },
           "language": "fil",
@@ -81,29 +69,15 @@ https://${mosip.api.public.host}/inji/veridonia-logo.png"
       "client_alias": "esignet-sunbird-partner",
       "scopes_supported": ["sunbird_rc_insurance_vc_ldp"],
       "additional_headers": { "Accept": "application/json" },
-      ".well-known": "
-https://${mosip.esignet.host}/.well-known/openid-credential-issuer?version=v11"
-,
+      ".well-known": "https://${mosip.esignet.host}/.well-known/openid-credential-issuer?version=v11",
       "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
-      "authorization_endpoint": "
-https://${mosip.esignet.host}/authorize"
-,
-      "authorization_audience": "
-https://${mosip.esignet.host}/v1/esignet/oauth/v2/token"
-,
-      "token_endpoint": "
-https://${mosip.api.public.host}/residentmobileapp/get-token/Sunbird"
-,
-      "proxy_token_endpoint": "
-https://${mosip.esignet.host}/v1/esignet/oauth/v2/token"
-,
-      "credential_endpoint": "
-https://${mosip.esignet.host}/v1/esignet/vci/credential"
-,
+      "authorization_endpoint": "https://${mosip.esignet.host}/authorize",
+      "authorization_audience": "https://${mosip.esignet.host}/v1/esignet/oauth/v2/token",
+      "token_endpoint": "https://${mosip.api.public.host}/residentmobileapp/get-token/Sunbird",
+      "proxy_token_endpoint": "https://${mosip.esignet.host}/v1/esignet/oauth/v2/token",
+      "credential_endpoint": "https://${mosip.esignet.host}/v1/esignet/vci/credential",
       "credential_type": ["VerifiableCredential", "InsuranceCredential"],
-      "credential_audience": "
-https://${mosip.esignet.host}"
-,
+      "credential_audience": "https://${mosip.esignet.host}",
       "enabled": "true"
     }
     ]
